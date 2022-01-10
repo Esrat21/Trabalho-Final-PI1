@@ -1,0 +1,22 @@
+body {
+    background-color:#eee;
+}
+
+.container-fluid {
+    padding:50px;
+}
+
+.container{
+    background-color:white;padding:50px;
+}
+
+#title{
+    font-family: 'Lobster', cursive;;
+}
+
+@font-face {
+    font-family: RetroTeste;
+    font-style: normal;
+    font-weight: normal;
+    src: url(PressStart2P.ttf);
+}

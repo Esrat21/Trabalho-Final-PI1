@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<title>Sign up Esrat's Gaming Room</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+	<head>
+		<script src="jquery/jquery.min.js"></script>		
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/fontes.css">
+		<link href="bootstrap.min.css" rel="stylesheet">
+		<script src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/validarLogin.js"></script>
+		
+	</head>
+	<body>
+
+    </head>
+    <body>
+
+	
+
+  
+  <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+    <h5 class="my-0 mr-md-auto font-weight-normal"> Esrat's Gaming Room</h5>
+    <nav class="my-2 my-md-0 mr-md-3">
+        <a class="p-2 text-dark" href="menu2.html">Menu</a>
+        <a class="p-2 text-dark" href="snake.html">Play Snake</a>
+        <a class="p-2 text-dark" href="Leaderboards.html">Leaderboards</a>
+        <a class="p-2 text-dark" href="carrt.html">Your Cart</a>
+    </nav>
+    <a class="btn btn-outline-primary" href="">Sign up</a>
+  </div>
+
+	<div class="container-fluid">
+		<div class="container">
+			<h2 class="text-center" id="">Register or Login  </h2>
+			 <p class="text-center">
+				<small id="passwordHelpInline" class="text-muted"> A REAL FUCKING POTATO </small>
+			</p>
+ 			<hr>
+			<div class="row">
+				<div class="col-md-5">
+ 					<form role="form" method="post" action="">
+						<fieldset>							
+							<p class="text-uppercase pull-center"> SIGN UP.</p>	
+ 							<div class="form-group">
+								<input type="text" name="username" id="username" class="form-control input-lg" placeholder="Username">
+							</div>
+
+							<div class="form-group">
+								<input type="email" name="email" id="email" class="form-control input-lg" placeholder="Email Address">
+							</div>
+							<div class="invalid-feedback" style="width: 100%;">
+									Your email is required
+								</div>
+							<div class="form-group">
+								<input type="password" name="password" id="password" class="form-control input-lg" placeholder="Password">
+							</div>
+								<div class="form-group">
+								<input type="password" name="password2" id="password2" class="form-control input-lg" placeholder="Confirm Password">
+							</div>
+ 							<div>
+ 								<input type="submit" class="btn btn-lg btn-primary"   value="Register" onclick="processFormData()">
+ 							</div>
+						</fieldset>
+					</form>
+				</div>
+				
+
+				<div class="col-md-2" id="batataa">
+				</div>
+				
+				<div class="col-md-5">
+ 				 		<form role="form">
+						<fieldset>							
+							<p class="text-uppercase"> Login using your account: </p>	
+ 								
+							<div class="form-group">
+								<input type="text" name="usernamel" id="usernamel" class="form-control input-lg" placeholder="Username">
+							</div>
+							<div class="invalid-feedback" style="width: 100%;">
+									Your username is required.
+								</div>
+							<div class="form-group">
+								<input type="password" name="passwordl" id="passwordl" class="form-control input-lg" placeholder="Password">
+							</div>
+							<div class="invalid-feedback" style="width: 100%;">
+									Your password is required.
+								</div>
+							<div>
+								<input type="submit" class="btn btn-lg btn-primary" value="Sign In" onclick="processFormData2()">
+							</div>
+								 
+ 						</fieldset>
+				</form>	
+				</div>
+			</div>
+		</div>
+		<p class="text-center"> &copy; 2019 Esrat's Gaming Room</p>
+		</p>
+	</div>
+</body>
+</html>
